@@ -1,0 +1,1258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcceptedAnswers" xml:space="preserve">
+    <value>Kabul Edilen Yanıtlar</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Hareketler</value>
+  </data>
+  <data name="ActiveInactive" xml:space="preserve">
+    <value>Aktive/Aktif Değil</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="AddAnotherQuestion" xml:space="preserve">
+    <value>Başka Soru Ekle</value>
+  </data>
+  <data name="AddNewRecord" xml:space="preserve">
+    <value>Yeni Kayıt Ekle</value>
+  </data>
+  <data name="AddQuestionForExam" xml:space="preserve">
+    <value>Sınava Soru Ekle</value>
+  </data>
+  <data name="AddressInformation" xml:space="preserve">
+    <value>Adres Bilgisi</value>
+  </data>
+  <data name="AddUser" xml:space="preserve">
+    <value>Kullanıcı Ekle</value>
+  </data>
+  <data name="AllocateMarks" xml:space="preserve">
+    <value>İşaretleri Tahsis Et</value>
+  </data>
+  <data name="AllocateMarksForEachQuestion" xml:space="preserve">
+    <value>Sınavdaki her soruya puan verin.</value>
+  </data>
+  <data name="AllocateMarksNote" xml:space="preserve">
+    <value>Not: Sınava daha önce girmiş öğrenciler varsa buradaki notları değiştirdiğinizde onların puanları da yeniden hesaplanacaktır.</value>
+  </data>
+  <data name="alreadyexists" xml:space="preserve">
+    <value>zaten var.</value>
+  </data>
+  <data name="AnAccount" xml:space="preserve">
+    <value>Hesap</value>
+  </data>
+  <data name="Anerroroccurred" xml:space="preserve">
+    <value>İşleminiz gerçekleştirilirken bir hata oluştu.</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Cevap</value>
+  </data>
+  <data name="AnswerCasesInfo" xml:space="preserve">
+    <value>Büyük harf veya küçük harf fark etmez, öğrencinin cevabı ile verilen cevabın eşleşmesini etkilemez.</value>
+  </data>
+  <data name="AnsweredCorrect" xml:space="preserve">
+    <value>Doğru Yanıtlandı</value>
+  </data>
+  <data name="AnswerOption" xml:space="preserve">
+    <value>Seçenekler</value>
+  </data>
+  <data name="AnswerSaved" xml:space="preserve">
+    <value>Cevapları Kaydet</value>
+  </data>
+  <data name="AreyouSureToDeleteThisRecord" xml:space="preserve">
+    <value>Bunu Silmek İstediğinizden Emin misiniz?</value>
+  </data>
+  <data name="ArrangeQuestionOrder" xml:space="preserve">
+    <value>Soru Sırasını Düzenleyin</value>
+  </data>
+  <data name="AttachmentType" xml:space="preserve">
+    <value>Ek tipi</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>Listeye Geri Git</value>
+  </data>
+  <data name="ByDefaultSystemAdminCanManageWhileNormalUserCant" xml:space="preserve">
+    <value>Varsayılan olarak sistem yöneticisi bu modülü yönetebilir, ancak normal kullanıcının bu modülü görüntüleme/ekleme/düzenleme/silme izni yoktur.</value>
+  </data>
+  <data name="CannotAddNewQuestionButCanExclude" xml:space="preserve">
+    <value>Öğrenciler zaten sınava girdiler. Sınava yeni soru ekleyemezsiniz. Yalnızca sorunun cevabı yanlışsa soruları sınavdan hariç tutabilirsiniz. Siz soruyu hariç tuttuktan sonra sistem öğrencilerin puanlarını yeniden notlayacaktır.</value>
+  </data>
+  <data name="CannotChooseEmptyAnswerAsCorrectAnswer" xml:space="preserve">
+    <value>Boş cevap doğru cevap olarak seçilemez.</value>
+  </data>
+  <data name="CannotEditQuestion" xml:space="preserve">
+    <value>Zaten sınava giren öğrenciler var. Öğrenci sınava girerken soru ekleyemez veya silemezsiniz.</value>
+  </data>
+  <data name="CannotReturnToPreviousQuestion" xml:space="preserve">
+    <value>Dikkat! Lütfen "İleri" butonuna basmadan önce cevabınızı kaydedin çünkü butonu tıkladıktan sonra önceki sorulara dönemezsiniz.</value>
+  </data>
+  <data name="CannotSaveExamTooltip" xml:space="preserve">
+    <value>Sınav çoktan başladı. Detayları ancak sınav bittikten sonra değiştirebilirsiniz.</value>
+  </data>
+  <data name="ChangeAnswerNote" xml:space="preserve">
+    <value>Bu soruyu içeren sınava girmiş mevcut öğrenciler varsa ve cevap metnini değiştirirseniz veya doğru cevabı şimdi değiştirirseniz, onların sonucu yeniden hesaplanacaktır. Bu, öğretmenin yanlış cevabı seçme hatası sorununu çözmek içindir.</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Şifreyi Değiştir</value>
+  </data>
+  <data name="ChangePasswordForUser" xml:space="preserve">
+    <value>Kullanıcının Şifresini Değiştir</value>
+  </data>
+  <data name="CheckTheRadioButtonForCorrectAnswer" xml:space="preserve">
+    <value>Sorunun doğru cevabını ayarlamak için radyo düğmesini kontrol edin.</value>
+  </data>
+  <data name="Class" xml:space="preserve">
+    <value>Sınıf</value>
+  </data>
+  <data name="ClassManagement" xml:space="preserve">
+    <value>Sınıfları Yönet</value>
+  </data>
+  <data name="ClickHereToLogin" xml:space="preserve">
+    <value>Giriş yapmak için tıklayın</value>
+  </data>
+  <data name="Clicktoseeerrordetail" xml:space="preserve">
+    <value>Hata detayını görmek için tıklayın.</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kod</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Kolon</value>
+  </data>
+  <data name="ColumnsCountMismatch" xml:space="preserve">
+    <value>Sütunlar sayım uyumsuzluğu.</value>
+  </data>
+  <data name="ConfigurationError" xml:space="preserve">
+    <value>Yapılandırma hatası</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>Mail Tekrar</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Yeni şifreyi onayla</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Şifreyi Onayla</value>
+  </data>
+  <data name="ConfirmPasswordRequired" xml:space="preserve">
+    <value>Şifreyi Onayla alanı zorunludur.</value>
+  </data>
+  <data name="ContinueExam" xml:space="preserve">
+    <value>Devam Et</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="CountryNotFound" xml:space="preserve">
+    <value>Ülke bulunamadı.</value>
+  </data>
+  <data name="CountryRequired" xml:space="preserve">
+    <value>Ülke alanı zorunludur.</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Oluştur</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Oluşturm Tarihi</value>
+  </data>
+  <data name="CurrentExams" xml:space="preserve">
+    <value>Güncel Sınavlar</value>
+  </data>
+  <data name="CurrentImage" xml:space="preserve">
+    <value>Güncel Resimler</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Güncel Şifre</value>
+  </data>
+  <data name="CurrentProfilePicture" xml:space="preserve">
+    <value>Güncel Profil Resmi</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="DashboardRolePermissionDescription" xml:space="preserve">
+    <value>Varsayılan olarak, sistem yöneticisi tüm kullanıcıların verilerine ilişkin bir gösterge tablosunu görüntüleyebilir, normal kullanıcı ise yalnızca kendi verilerine ilişkin bir gösterge tablosunu görüntüleyebilir.</value>
+  </data>
+  <data name="DateOfBirth" xml:space="preserve">
+    <value>Doğum Tarihi</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="DemoAccountCannotBeDeleted" xml:space="preserve">
+    <value>Üzgünüz, demo hesabı silinemez.</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="DisabledQuestionOrderTooltip" xml:space="preserve">
+    <value>Sınav, soru sırasını rastgele ayarlayacak şekilde ayarlandığından bu devre dışı bırakıldı.</value>
+  </data>
+  <data name="DisplayOrder" xml:space="preserve">
+    <value>Görüntüleme sırası</value>
+  </data>
+  <data name="DragAndDropToArrangeTheQuestionOrder" xml:space="preserve">
+    <value>Soru sırasını düzenlemek için sürükleyip bırakın.</value>
+  </data>
+  <data name="DurationInMinute" xml:space="preserve">
+    <value>Süre (dakika)</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="EditAttachments" xml:space="preserve">
+    <value>Ekleri Düzenle::</value>
+  </data>
+  <data name="EditExamDesciption" xml:space="preserve">
+    <value>Nazik Hatırlatma: Öğrencinin sınava girerken hata yapmaması için lütfen sınavın başlangıç ​​tarihi ve saatinden önce tüm sınav ayrıntılarını tekrar kontrol edin.</value>
+  </data>
+  <data name="EditMyProfile" xml:space="preserve">
+    <value>Profili Düzenle</value>
+  </data>
+  <data name="EditQuestionDescription" xml:space="preserve">
+    <value>Öğrenciler sınava girerken soru ekleme veya silme işlemi yapılamadığından, lütfen sınav başlamadan önce tüm soru ve cevapların doğru olduğundan emin olun.</value>
+  </data>
+  <data name="EditQuestionDescription2" xml:space="preserve">
+    <value>Ancak bir soruya cevabınız yanlışsa sınav bittikten sonra da düzeltebilirsiniz. Sistem öğrencilerin puanlarını otomatik olarak yeniden değerlendirecektir.</value>
+  </data>
+  <data name="EditUser" xml:space="preserve">
+    <value>Kullanıcıyı Düzenle</value>
+  </data>
+  <data name="EditUserAttachment" xml:space="preserve">
+    <value>Kullanıcı Eki'ni Düzenle</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Email Adres</value>
+  </data>
+  <data name="EmailAddressTaken" xml:space="preserve">
+    <value>E-posta Adresi zaten alınmış. Lütfen diğer E-posta Adresiyle tekrar deneyin.</value>
+  </data>
+  <data name="EmptyAnswerWillBeIgnored" xml:space="preserve">
+    <value>Boş cevap seçeneği dikkate alınmayacaktır.</value>
+  </data>
+  <data name="EndDateTime" xml:space="preserve">
+    <value>Bitiş Tarihi ve Saati</value>
+  </data>
+  <data name="EndDateTime1" xml:space="preserve">
+    <value>Bitiş Tarihi ve Saati</value>
+  </data>
+  <data name="EndDateTimeMustBeGreater" xml:space="preserve">
+    <value>Bitiş Tarihi ve Saati, başlangıç ​​tarihi ve saatinden büyük olmalıdır.</value>
+  </data>
+  <data name="EnterTheDetails" xml:space="preserve">
+    <value>Ayrıntıları girin</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Sınav</value>
+  </data>
+  <data name="ExamCompleted" xml:space="preserve">
+    <value>Sınav Tamamlandı</value>
+  </data>
+  <data name="ExamCompletedTooltip" xml:space="preserve">
+    <value>Toplam sınavların bitiş tarihi zaten geçmiştir.</value>
+  </data>
+  <data name="ExamDurationInfo" xml:space="preserve">
+    <value>Sınavı tamamlamak için öğrenciye verilen süre (dakika olarak). Öğrenci "Sınavı Başlat" butonuna tıkladığında sınav bu süre değerinden geri saymaya başlayacaktır.</value>
+  </data>
+  <data name="ExamEndDateTimeInfo" xml:space="preserve">
+    <value>Bu, öğrencinin sınava başlama tarihidir. Bu tarih ve saatten sonra öğrenci sınava giremeyecektir.</value>
+  </data>
+  <data name="ExamEndedDescription" xml:space="preserve">
+    <value>Büyük olasılıkla bu sınav bir öğretmen veya yönetici tarafından iptal edilmiştir. Artık sınava devam edemezsiniz.</value>
+  </data>
+  <data name="ExamEndedTitle" xml:space="preserve">
+    <value>Kusura bakmayın sınav bitti.</value>
+  </data>
+  <data name="ExamFailed" xml:space="preserve">
+    <value>Sınav Başarısız</value>
+  </data>
+  <data name="ExamFailedTooltip" xml:space="preserve">
+    <value>Başarısız olduğunuz sınavların toplam sayısı. Pes etmeyin, bu sadece bir öğrenme fırsatı, buna sahipsiniz.</value>
+  </data>
+  <data name="ExamInProgress" xml:space="preserve">
+    <value>Sınav devam ediyor</value>
+  </data>
+  <data name="ExamInProgressTooltip" xml:space="preserve">
+    <value>Şu anda öğrencilerin sınava başlaması için mevcut olan toplam sınav.</value>
+  </data>
+  <data name="ExamManagement" xml:space="preserve">
+    <value>Sınav Yöenetimi</value>
+  </data>
+  <data name="ExamName" xml:space="preserve">
+    <value>Sınav Adı</value>
+  </data>
+  <data name="Examnotfound" xml:space="preserve">
+    <value>Sınav Bulunamadı</value>
+  </data>
+  <data name="ExamPassed" xml:space="preserve">
+    <value>Sınav geçildi</value>
+  </data>
+  <data name="ExamPassedTooltip" xml:space="preserve">
+    <value>Geçtiğiniz sınavların toplam sayısı. Tebrikler! Devam etmek.</value>
+  </data>
+  <data name="ExamResult" xml:space="preserve">
+    <value>Sınav sonucu</value>
+  </data>
+  <data name="ExamStartDateTimeInfo" xml:space="preserve">
+    <value>Öğrenci bu tarih ve saatten itibaren sınava girebilir.</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="ExporttoExcel" xml:space="preserve">
+    <value>Excel'e aktar</value>
+  </data>
+  <data name="ExportToExcelNote" xml:space="preserve">
+    <value>Buna tıklamadan önce Excel'e neyi aktarmak istediğinizi kontrol edebilirsiniz. Örneğin, tüm kayıtları dışa aktarmak istiyorsanız, "Excel'e Aktar" seçeneğini tıklamadan önce, aşağıdaki açılır düğmedeki "Tümünü Göster" seçeneğini tıklayın.</value>
+  </data>
+  <data name="ExporttoPdf" xml:space="preserve">
+    <value>PDF'ye aktar</value>
+  </data>
+  <data name="ExportToPDFNote" xml:space="preserve">
+    <value>Buna tıklamadan önce neyi PDF'ye aktarmak istediğinizi kontrol edebilirsiniz. Örneğin, tüm kayıtları dışa aktarmak istiyorsanız, "PDF'ye Aktar" seçeneğini tıklamadan önce aşağıdaki açılır düğmede "Tümünü Göster" seçeneğini tıklayın.</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Arızalı</value>
+  </data>
+  <data name="FailedExceptionError" xml:space="preserve">
+    <value>İstisna hatası nedeniyle başarısız oldu.</value>
+  </data>
+  <data name="FailedOnlyJpgJpegPngCanBeSetAsProfilePicture" xml:space="preserve">
+    <value>Arızalı. Profil Resmi olarak yalnızca jpg, jpeg ve png dosyası ayarlanabilir.</value>
+  </data>
+  <data name="FailedToResetPassword" xml:space="preserve">
+    <value>Şifre sıfırlanamadı.</value>
+  </data>
+  <data name="FieldIsRequired" xml:space="preserve">
+    <value>Boş Geçilemez</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Dosya Adı</value>
+  </data>
+  <data name="FileURL" xml:space="preserve">
+    <value>Dosya URL</value>
+  </data>
+  <data name="Fillinansweroption" xml:space="preserve">
+    <value>Cevap seçeneğini doldurun</value>
+  </data>
+  <data name="FillInEmailAddressWeWillSendYouResetPasswordLink" xml:space="preserve">
+    <value>E-posta adresinizi girin, size şifrenizi sıfırlamanız için bir bağlantı göndereceğiz.</value>
+  </data>
+  <data name="FillInYourUsernameAndPasswordToSignIn" xml:space="preserve">
+    <value>Oturum açmak için kullanıcı adınızı ve şifrenizi girin.</value>
+  </data>
+  <data name="FillYourDetailsToRegister" xml:space="preserve">
+    <value>Kayıt olmak için bilgilerinizi doldurun.</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>İsim</value>
+  </data>
+  <data name="Forgot" xml:space="preserve">
+    <value>Unutmak</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Parolanızı mı unuttunuz</value>
+  </data>
+  <data name="ForgotYourPassword" xml:space="preserve">
+    <value>Parolanızı mı unuttunuz?</value>
+  </data>
+  <data name="FullAddress" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>İsim</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Cinsiyet</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>Genel Ayarlar</value>
+  </data>
+  <data name="HomeIndexTabTitle" xml:space="preserve">
+    <value>NetStarter- ASP.NET MVC C# Web Application Starter Template</value>
+  </data>
+  <data name="IDCardNumber" xml:space="preserve">
+    <value>ID kart numarası</value>
+  </data>
+  <data name="ImportFromExcel" xml:space="preserve">
+    <value>Excel'den İçe Aktar</value>
+  </data>
+  <data name="ImportFromExcelDescription" xml:space="preserve">
+    <value>Lütfen aşağıdaki excel şablonunu indirin ve verilerinizi ekleyin. Lütfen fazladan sütunları düzenlemeyin veya eklemeyin. Veriler içe aktarılırken ekstra sütunlar dikkate alınmayacaktır. Verilerinizi excel dosyasına yerleştirmeyi tamamladıktan sonra kaydedin ve aşağıdaki yükleme bölümünden yükleyin.</value>
+  </data>
+  <data name="ImportingDataFromExcelPleaseWait" xml:space="preserve">
+    <value>Veriler Excel'den İçe Aktarılıyor... Lütfen Bekleyiniz...</value>
+  </data>
+  <data name="ImportUserFromExcel" xml:space="preserve">
+    <value>Kullanıcıyı Excel'den İçe Aktar</value>
+  </data>
+  <data name="ImportUserFromExcelDescription" xml:space="preserve">
+    <value>Lütfen aşağıdaki excel şablonunu indirin ve kullanıcı verilerinizi ekleyin. Lütfen fazladan sütunları düzenlemeyin veya eklemeyin. Veriler içe aktarılırken ekstra sütunlar dikkate alınmayacaktır. Verilerinizi excel dosyasına yerleştirmeyi tamamladıktan sonra kaydedin ve aşağıdaki yükleme bölümünden yükleyin.</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="IntakeYear" xml:space="preserve">
+    <value>Giriş Yılı</value>
+  </data>
+  <data name="InvalidDuration" xml:space="preserve">
+    <value>Geçersiz Süre</value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>Geçersiz Mail Adresi</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Geçersiz giriş denemesi</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>Şifre en az bir büyük harf, bir küçük harf, bir rakam ve bir sembolden oluşan en az 6 karakterden oluşmalıdır.</value>
+  </data>
+  <data name="InvalidPhoneNumber" xml:space="preserve">
+    <value>Geçerli bir telefon numarası giriniz.</value>
+  </data>
+  <data name="InvalidPostalCode" xml:space="preserve">
+    <value>Lütfen geçerli bir posta kodu girin.</value>
+  </data>
+  <data name="InvalidQuestionType" xml:space="preserve">
+    <value>Geçersiz Soru Türü. Lütfen excel'deki açılır listeden seçim yapın.</value>
+  </data>
+  <data name="InvalidSubject" xml:space="preserve">
+    <value>Geçersiz Konu. Lütfen excel'deki açılır listeden seçim yapın.</value>
+  </data>
+  <data name="InvalidTemplate" xml:space="preserve">
+    <value>Sütunlar geçersiz. Lütfen sağlanan şablonu kullanın ve sütunların kaldırılmadığından veya düzenlenmediğinden emin olun.</value>
+  </data>
+  <data name="InvalidUsername" xml:space="preserve">
+    <value>Kullanıcı adı geçersiz. Kullanıcı adı en az 4 karakterden oluşmalı, bir harfle başlamalı ve özel semboller içeremez.</value>
+  </data>
+  <data name="InvalidUserTemplate" xml:space="preserve">
+    <value>Sütunlar geçersiz. Lütfen sağlanan şablonu (UserExcelTemplate.xlsx) kullanın ve sütunların kaldırılmadığından veya düzenlenmediğinden emin olun</value>
+  </data>
+  <data name="IsCorrect" xml:space="preserve">
+    <value>Doğru Cevap mı?</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Soyadı</value>
+  </data>
+  <data name="Lessons" xml:space="preserve">
+    <value>Dersler</value>
+  </data>
+  <data name="ListofRoles" xml:space="preserve">
+    <value>Rol Listesi</value>
+  </data>
+  <data name="ListofUserAttachments" xml:space="preserve">
+    <value>Kullanıcı Eklerinin Listesi</value>
+  </data>
+  <data name="ListofUserAttachmentTypes" xml:space="preserve">
+    <value>Kullanıcı Ek Türlerinin Listesi</value>
+  </data>
+  <data name="ListofUsers" xml:space="preserve">
+    <value>Kullanıcı Listesi</value>
+  </data>
+  <data name="ListofUserStatus" xml:space="preserve">
+    <value>Kullanıcı Durumu Listesi</value>
+  </data>
+  <data name="ListOfUserWith" xml:space="preserve">
+    <value>Kullanıcı Listesi</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Yükleniyor...</value>
+  </data>
+  <data name="Lockedout" xml:space="preserve">
+    <value>Kilitlendi</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="LoginDateTime" xml:space="preserve">
+    <value>Giriş Saati</value>
+  </data>
+  <data name="LoginHistory" xml:space="preserve">
+    <value>Giriş bilgileri</value>
+  </data>
+  <data name="LoginHistoryRolePermissionDescription" xml:space="preserve">
+    <value>Varsayılan olarak sistem yöneticisi tüm kullanıcıların oturum açma geçmişlerini görüntüleyebilir, normal kullanıcı ise yalnızca kendi oturum açma geçmişlerini görüntüleyebilir.</value>
+  </data>
+  <data name="ManageAttachmentsFor" xml:space="preserve">
+    <value>Şunun için Ekleri Yönet:</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>Ynetmek</value>
+  </data>
+  <data name="ManageUserAttachment" xml:space="preserve">
+    <value>Kullanıcı Ekini Yönet</value>
+  </data>
+  <data name="Mark" xml:space="preserve">
+    <value>İşaret</value>
+  </data>
+  <data name="MarksToPass" xml:space="preserve">
+    <value>Geçilecek Puanla</value>
+  </data>
+  <data name="MaxLength100" xml:space="preserve">
+    <value>İzin verilen maksimum uzunluk 100 karakterdir.</value>
+  </data>
+  <data name="MaxLength128" xml:space="preserve">
+    <value>İzin verilen maksimum uzunluk 128 karakterdir.</value>
+  </data>
+  <data name="MaxLength256" xml:space="preserve">
+    <value>İzin verilen maksimum uzunluk 256 karakterdir.</value>
+  </data>
+  <data name="MaxNumberAllowedIs100" xml:space="preserve">
+    <value>İzin verilen maksimum sayı 100'dür.</value>
+  </data>
+  <data name="MCQMustHaveAtLeast2AnswerOptions" xml:space="preserve">
+    <value>ÇSS'de en az 2 yanıt seçeneği bulunmalıdır.</value>
+  </data>
+  <data name="MinLength6" xml:space="preserve">
+    <value>Alan en az 6 karakter uzunluğunda olmalıdır.</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Tarafından tasarlandı</value>
+  </data>
+  <data name="ModifiedOn" xml:space="preserve">
+    <value>Değiştirilme Tarihi</value>
+  </data>
+  <data name="MonthlyAveragePerformance" xml:space="preserve">
+    <value>Aylık Ortalama Performans</value>
+  </data>
+  <data name="MostOfTheUsersAreWithThisStatus" xml:space="preserve">
+    <value>Kullanıcıların çoğu bu durumdadır.</value>
+  </data>
+  <data name="MyExams" xml:space="preserve">
+    <value>Sınavlarım</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>Profilim</value>
+  </data>
+  <data name="NA" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>İsim</value>
+  </data>
+  <data name="NetStarter" xml:space="preserve">
+    <value>Ağ Başlatıcı</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Yeni Şifre</value>
+  </data>
+  <data name="NewPasswordNotMatch" xml:space="preserve">
+    <value>Yeni şifre ve onay yeni şifresi eşleşmiyor.</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>İleri</value>
+  </data>
+  <data name="NoDataAvailable" xml:space="preserve">
+    <value>Mevcut Veri Yok</value>
+  </data>
+  <data name="NoQuestionYet" xml:space="preserve">
+    <value>Bu sınavda henüz soru bulunmamaktadır. Lütfen devam etmeden önce sınava yönelik soruları ekleyin.</value>
+  </data>
+  <data name="NormalUserSystemAdminCannotBeDeleted" xml:space="preserve">
+    <value>Normal kullanıcı ve sistem yöneticisi rolleri silinemez veya düzenlenemez. çünkü bunlar giriş geçmişlerinin yüklenmesini belirlemek için kullanılacaktır (Yönetici tüm kullanıcıların giriş geçmişlerini görebilir, ancak normal bir kullanıcı yalnızca kendi geçmişini görebilir).</value>
+  </data>
+  <data name="NotAllowToChangePasswordForDemoAccount" xml:space="preserve">
+    <value>Üzgünüz, demo hesabının şifresini değiştirmenize izin verilmiyor. Bu özelliği denemek için lütfen başka bir hesaba kaydolun.</value>
+  </data>
+  <data name="NoteColon" xml:space="preserve">
+    <value>Not:</value>
+  </data>
+  <data name="NoteSystemInformation" xml:space="preserve">
+    <value>Not: Sistem bilgileri yalnızca Sistem Yöneticisi tarafından düzenlenebilir.</value>
+  </data>
+  <data name="notfoundormismatch" xml:space="preserve">
+    <value>bulunamadı veya uyumsuz.</value>
+  </data>
+  <data name="OnlyLettersAndNumbers" xml:space="preserve">
+    <value>Yalnızca harflere ve sayılara izin verilir.</value>
+  </data>
+  <data name="OnlyNumbers" xml:space="preserve">
+    <value>Only numbers are allowed.</value>
+  </data>
+  <data name="Oops" xml:space="preserve">
+    <value>Oops.</value>
+  </data>
+  <data name="OopsSomethingwrong" xml:space="preserve">
+    <value>Oops! Birşeyler Ters Gitti</value>
+  </data>
+  <data name="OtherInformation" xml:space="preserve">
+    <value>Diğer bilgiler</value>
+  </data>
+  <data name="outof" xml:space="preserve">
+    <value>Dışında</value>
+  </data>
+  <data name="Page0OfPage0" xml:space="preserve">
+    <value>Sayfa 0 / Sayfa 0</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>Geç</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="PasswordChangedSuccessfully" xml:space="preserve">
+    <value>Parola başarıyla değiştirildi!</value>
+  </data>
+  <data name="PasswordNotMatch" xml:space="preserve">
+    <value>Şifre ve onay şifresi eşleşmiyor.</value>
+  </data>
+  <data name="PasswordRequired" xml:space="preserve">
+    <value>Şifre alanı zorunludur.</value>
+  </data>
+  <data name="PasswordRequirementText" xml:space="preserve">
+    <value>En az 6 karakter. En az bir Büyük harf, bir Küçük harf, bir Rakam ve bir Sembol gerektirir.</value>
+  </data>
+  <data name="PastExams" xml:space="preserve">
+    <value>Geçmiş Sınavlar</value>
+  </data>
+  <data name="PersonalInformation" xml:space="preserve">
+    <value>Kişisel bilgi</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Telefon numarası</value>
+  </data>
+  <data name="Pleasefillinthefollowing" xml:space="preserve">
+    <value>Lütfen aşağıdakileri doldurun.</value>
+  </data>
+  <data name="PleaseInsertConnectionString" xml:space="preserve">
+    <value>Bu web uygulamasını çalıştırmak için lütfen Web.config'e gidin ve ConnectionString değerini girin</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>Lütfen Seçin....</value>
+  </data>
+  <data name="PleaseSelectACorrectAnswer" xml:space="preserve">
+    <value>Lütfen doğru bir cevap seçin.</value>
+  </data>
+  <data name="Pleaseselectallthefilesthatyouwanttoupload" xml:space="preserve">
+    <value>Lütfen yüklemek istediğiniz tüm dosyaları seçin.</value>
+  </data>
+  <data name="Pleaseselectallthefilesthatyouwanttoupload1" xml:space="preserve">
+    <value>Lütfen yüklemek istediğiniz tüm dosyaları seçin.</value>
+  </data>
+  <data name="Pleaseselectanexcelfile" xml:space="preserve">
+    <value>Lütfen bir excel dosyası seçin.</value>
+  </data>
+  <data name="Pleaseselectanexcelfile1" xml:space="preserve">
+    <value>Lütfen bir excel dosyası seçin.</value>
+  </data>
+  <data name="PleaseSelectAtLeastOneQuestion" xml:space="preserve">
+    <value>Lütfen en az bir soru seçin.</value>
+  </data>
+  <data name="PleaseSendSupportEmail" xml:space="preserve">
+    <value>Lütfen bu ekran görüntüsünü içeren bir destek e-postasını bilgi@herkesicinkuran.org.tr adresine gönderin. Teşekkür ederim.</value>
+  </data>
+  <data name="PleaseSubmitAnAnswer" xml:space="preserve">
+    <value>Lütfen bir cevap gönderin.</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Posta Kodu</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="PrintResult" xml:space="preserve">
+    <value>Sonucu Yazdır</value>
+  </data>
+  <data name="ProfilePicture" xml:space="preserve">
+    <value>Profil Resmi</value>
+  </data>
+  <data name="ProfilePictureAttachmentTypeCannotBeEditedOrDeleted" xml:space="preserve">
+    <value>Profil Resmi ek türü düzenlenemez veya silinemez. Çünkü kullanıcı tarafından yüklenen bir dosyanın profil resmi olarak seçilip seçilemeyeceğini doğrulamak için kullanılır.</value>
+  </data>
+  <data name="Publish" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="PublishedSuccessfully" xml:space="preserve">
+    <value>Görnderme tamamlandı</value>
+  </data>
+  <data name="PublishExamDisabled" xml:space="preserve">
+    <value>Sınavda herhangi bir soru bulunmadığından, bazı soruların cevapları henüz kaydedilmediğinden veya henüz her soruya puan dağıtmadığınızdan sınavı şu anda yayınlayamazsınız</value>
+  </data>
+  <data name="PublishExamTooltip" xml:space="preserve">
+    <value>Sınav yayınlandıktan sonra öğrenciniz bu sınavı yaklaşan sınav olarak görecektir. Sınavın Başlangıç ​​Tarihi ve Saatine ulaşıldığında sınava başlayabilirler</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Soru</value>
+  </data>
+  <data name="Questionexcellid" xml:space="preserve">
+    <value>Questionexcellid</value>
+  </data>
+  <data name="QuestionImage" xml:space="preserve">
+    <value>Soru Resmi</value>
+  </data>
+  <data name="QuestionInUsedCannotBeDeleted" xml:space="preserve">
+    <value>Bu soru daha önce bir sınavda kullanılmış olduğundan soru bankasından silinemez. Gelecekte bu soruya artık ihtiyacınız yoksa soruyu etkin değil olarak işaretleyebilirsiniz.</value>
+  </data>
+  <data name="QuestionManagement" xml:space="preserve">
+    <value>Soru Yönetimi</value>
+  </data>
+  <data name="QuestionTitle" xml:space="preserve">
+    <value>Soru Başlığı</value>
+  </data>
+  <data name="QuestionType" xml:space="preserve">
+    <value>Question Type</value>
+  </data>
+  <data name="RandomizeQuestions" xml:space="preserve">
+    <value>Soruları Rastgele Hale Getir</value>
+  </data>
+  <data name="Readytostarttheexam" xml:space="preserve">
+    <value>Sınava başlamaya hazır mısınız?</value>
+  </data>
+  <data name="RecalculatingDot" xml:space="preserve">
+    <value>Yeniden hesaplanıyor..</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Kayıt</value>
+  </data>
+  <data name="RecordDeletedSuccessfully" xml:space="preserve">
+    <value>Kayıt başarıyla silindi!</value>
+  </data>
+  <data name="RecordSavedSuccessfully" xml:space="preserve">
+    <value>Kayıt başarıyla eklendi</value>
+  </data>
+  <data name="RecordsImportedSuccessfully" xml:space="preserve">
+    <value>Kayıtlar başarıyla içe aktarıldı!</value>
+  </data>
+  <data name="recordsuploaded" xml:space="preserve">
+    <value>yüklenen kayıtlar</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Kayıt olmak</value>
+  </data>
+  <data name="RegisteredUserStatusCannotBeDeletedOrEdited" xml:space="preserve">
+    <value>Kayıtlı kullanıcı durumu silinemez veya düzenlenemez. Çünkü kayıtlı kullanıcıya atanacak varsayılan durumdur.</value>
+  </data>
+  <data name="RegisterSuccessLoginNow" xml:space="preserve">
+    <value>Kayıt işlemi başarılı .Lütfen giriş yapınız.</value>
+  </data>
+  <data name="ReleaseAnswer" xml:space="preserve">
+    <value>Cevap Öğrenciye Görüntülensin mi?</value>
+  </data>
+  <data name="ReleaseAnswerInfo" xml:space="preserve">
+    <value>Öğrenci "çıkış"ı tıkladığında soru ve yanıt öğrenciye görüntülenmeli mi? Şimdilik "Hayır"ı seçmenizi öneririz. Tüm öğrencilerin sonuçlarını incelemeyi bitirdikten sonra öğrencilerin soruları ve cevapları çalışabilmesi için bunu "evet" olarak değiştirebilirsiniz.</value>
+  </data>
+  <data name="ReleaseResult" xml:space="preserve">
+    <value>Sonuç ve Cevap Yayınla</value>
+  </data>
+  <data name="ReleaseResultTooltip" xml:space="preserve">
+    <value>Sınav sorularının cevapları "Cevap Öğrenciye Görüntülensin mi?" seçeneğinden dolayı henüz öğrencilere açıklanmamaktadır. alanı "Hayır" olarak ayarlandı. Öğrencinin gönderdiği yanıtları incelemeyi bitirdikten sonra, sınav sorularının yanıtlarını çalışabilmesi için yanıtları öğrenciye bırakabilirsiniz.</value>
+  </data>
+  <data name="Rememberme" xml:space="preserve">
+    <value>Beni Hatırla?</value>
+  </data>
+  <data name="Removeselectedfile" xml:space="preserve">
+    <value>Seçilen dosyayı/dosyaları kaldır</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Şifre Sıfırla</value>
+  </data>
+  <data name="ResetPasswordEmailSent" xml:space="preserve">
+    <value>Şifre sıfırlama e-postası başarıyla gönderildi!</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Sonuç</value>
+  </data>
+  <data name="ResultStatus" xml:space="preserve">
+    <value>Sonuç Durumu</value>
+  </data>
+  <data name="ReviewQuestionAndAnswer" xml:space="preserve">
+    <value>Soru-Cevap Kontrolü</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="RolebyNumberofUsers" xml:space="preserve">
+    <value>Kullanıcı Sayısına Göre Rol</value>
+  </data>
+  <data name="RoleManagement" xml:space="preserve">
+    <value>Rol yönetimi</value>
+  </data>
+  <data name="RoleName" xml:space="preserve">
+    <value>Rol ismi</value>
+  </data>
+  <data name="RoleNameAlreadyExist" xml:space="preserve">
+    <value>Rol adı sistemde zaten mevcut.</value>
+  </data>
+  <data name="RoleNotFound" xml:space="preserve">
+    <value>Rol Bulunamadı</value>
+  </data>
+  <data name="RolePermissionfor" xml:space="preserve">
+    <value> Rol İzni:</value>
+  </data>
+  <data name="RoleRequired" xml:space="preserve">
+    <value>Rol alanı gereklidir.</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="SaveAndExit" xml:space="preserve">
+    <value>Kaydet &amp; Çık</value>
+  </data>
+  <data name="SaveAndNext" xml:space="preserve">
+    <value>Kaydet &amp; Sonrası</value>
+  </data>
+  <data name="ScoreToPass" xml:space="preserve">
+    <value>Geçilmesi gereken puan</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="SearchDot" xml:space="preserve">
+    <value>Ara...</value>
+  </data>
+  <data name="SelectAnImageFile" xml:space="preserve">
+    <value>Bir görüntü dosyası seçin</value>
+  </data>
+  <data name="Selectmultiple" xml:space="preserve">
+    <value>Birden fazla seç...</value>
+  </data>
+  <data name="ShortAnswerOptionsDescription" xml:space="preserve">
+    <value>Kısa cevaplı soru için tüm doğru cevapları girin. Öğrencinin cevabı aşağıdaki cevaplardan biriyle eşleştiğinde öğrenci doğru cevap vermiş sayılır.</value>
+  </data>
+  <data name="Show10Records" xml:space="preserve">
+    <value>10 Kayıt göster</value>
+  </data>
+  <data name="Show25Records" xml:space="preserve">
+    <value>25 Kayıt göster</value>
+  </data>
+  <data name="Show50Records" xml:space="preserve">
+    <value>50 Kayıt göster</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Tümünü Göster</value>
+  </data>
+  <data name="Showing0Entries" xml:space="preserve">
+    <value>0 girişten 0 ile 0 arası gösteriliyor</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Oturumu Kapat</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>Kayıt Ol</value>
+  </data>
+  <data name="SomeAnswerOptionsAreDuplicated" xml:space="preserve">
+    <value>Cevap seçeneklerini kopyala</value>
+  </data>
+  <data name="SomeRequiredFieldsAreEmpty" xml:space="preserve">
+    <value>Zorunlu* alanlardan bazıları boş. Lütfen gerekli* alanların tümünü doldurun</value>
+  </data>
+  <data name="StartDateTime" xml:space="preserve">
+    <value>Başlangıç ​​Tarihi ve Saati</value>
+  </data>
+  <data name="StartDateTime1" xml:space="preserve">
+    <value>Başlangıç ​​Tarihi ve Saati</value>
+  </data>
+  <data name="StartExam" xml:space="preserve">
+    <value>Sınava Başla</value>
+  </data>
+  <data name="StartNow" xml:space="preserve">
+    <value>Şimdi</value>
+  </data>
+  <data name="StartsIn" xml:space="preserve">
+    <value>Başlama Saati</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="StatusRequired" xml:space="preserve">
+    <value>Durum alanı zorunludur.</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>Oluşturma</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Rolündeki Kullanıcılar</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Sınav geçildi</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>Yanlış Cevaplanan En Önemli 5 Soru</value>
+  </data>
+  <data name="StudentAbsent" xml:space="preserve">
+    <value>Öğrenci Yok</value>
+  </data>
+  <data name="StudentAnswer" xml:space="preserve">
+    <value>Öğrenci Cevabı</value>
+  </data>
+  <data name="StudentFailed" xml:space="preserve">
+    <value>Öğrenci Başarısız</value>
+  </data>
+  <data name="StudentIn" xml:space="preserve">
+    <value>Öğrenci</value>
+  </data>
+  <data name="StudentName" xml:space="preserve">
+    <value>Öğrenci Adı</value>
+  </data>
+  <data name="StudentNotStarted" xml:space="preserve">
+    <value>Öğrenci Başlamadı</value>
+  </data>
+  <data name="StudentPassed" xml:space="preserve">
+    <value>Öğrenci Vazgeçti</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Ders</value>
+  </data>
+  <data name="SubjectManagement" xml:space="preserve">
+    <value>Ders Yönetimi</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Başarılı</value>
+  </data>
+  <data name="SystemInformation" xml:space="preserve">
+    <value>Sistem Bilgisi</value>
+  </data>
+  <data name="TableIsStillLoading" xml:space="preserve">
+    <value>Lütfen bekleyin. Tablo hâlâ yükleniyor. Tablo yüklendikten sonra buna tıklayın.</value>
+  </data>
+  <data name="Theerrorsareasbelow" xml:space="preserve">
+    <value>Hatalar aşağıdaki gibidir:</value>
+  </data>
+  <data name="Thisaccounthasbeenlockedout" xml:space="preserve">
+    <value>Bu hesap kilitlendi, lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="Thiscannotbeundone" xml:space="preserve">
+    <value>Bu geri alınamaz! İlgili diğer kayıtlar da etkilenecektir.</value>
+  </data>
+  <data name="ThisIsADuplicatedValue" xml:space="preserve">
+    <value>Bu zaten kullanılıyor. Lütfen farklı bir değer girin.</value>
+  </data>
+  <data name="ThisRoleHasTheLeastNumberOfUser" xml:space="preserve">
+    <value>Bu rol en az sayıda kullanıcıya sahip, belki de en yüksek izne sahip bir rol.</value>
+  </data>
+  <data name="TimesUpDescription" xml:space="preserve">
+    <value>Sınav dönemi sona erdi. Sınavdan çıkmak ve sonucunuzu görmek için aşağıdaki çıkış düğmesine tıklayın. Çıkış butonuna TIKLAMANIZ GEREKİR! Aksi halde sınav sonucunuz hesaplanmayacaktır. Teşekkür ederim.</value>
+  </data>
+  <data name="TimesUpTitle" xml:space="preserve">
+    <value>Süre doldu!</value>
+  </data>
+  <data name="TimeTaken" xml:space="preserve">
+    <value>Geçen süre</value>
+  </data>
+  <data name="ToNetStarter" xml:space="preserve">
+    <value>Herkes İçin Kuran </value>
+  </data>
+  <data name="TopQuestionsAnsweredWrongly" xml:space="preserve">
+    <value>Yanlış Cevaplanan En Önemli 5 Soru </value>
+  </data>
+  <data name="TopRole" xml:space="preserve">
+    <value>Üst Rol</value>
+  </data>
+  <data name="TopStatus" xml:space="preserve">
+    <value>En İyi Durum</value>
+  </data>
+  <data name="TopStudentsByExam" xml:space="preserve">
+    <value>Sınava Göre İlk 10 Öğrenci</value>
+  </data>
+  <data name="TopUpcomingExams" xml:space="preserve">
+    <value>Yaklaşan En İyi 5 Sınav</value>
+  </data>
+  <data name="TotalFileSizeCannotBeLargerThan50MB" xml:space="preserve">
+    <value>Toplam dosya boyutu 50 MB'tan büyük olamaz.</value>
+  </data>
+  <data name="TotalMarks" xml:space="preserve">
+    <value>Toplam puan</value>
+  </data>
+  <data name="TotalNumberOfRolesInTheSystem" xml:space="preserve">
+    <value>Sistemdeki toplam rol sayısı</value>
+  </data>
+  <data name="TotalNumberOfUsersInTheSystem" xml:space="preserve">
+    <value>Sistemdeki toplam rol sayısı</value>
+  </data>
+  <data name="TotalQuestions" xml:space="preserve">
+    <value>Toplam soru</value>
+  </data>
+  <data name="TotalQuestions1" xml:space="preserve">
+    <value>Toplam soru</value>
+  </data>
+  <data name="TotalRoles" xml:space="preserve">
+    <value>Tolam rol</value>
+  </data>
+  <data name="TotalScore" xml:space="preserve">
+    <value>Toplam skor</value>
+  </data>
+  <data name="TotalStudent" xml:space="preserve">
+    <value>Toplam öğrenci</value>
+  </data>
+  <data name="TotalStudentTooltip" xml:space="preserve">
+    <value>Sistemdeki toplam öğrenci hesabı.</value>
+  </data>
+  <data name="TotalTeacher" xml:space="preserve">
+    <value>Toplam Öğretmen</value>
+  </data>
+  <data name="TotalTeacherTooltip" xml:space="preserve">
+    <value>Sistemdeki toplam öğretmen sayısı.</value>
+  </data>
+  <data name="TotalUsers" xml:space="preserve">
+    <value>Toplam Kullanıcı</value>
+  </data>
+  <data name="TypetoSearch" xml:space="preserve">
+    <value>Aramak için yazın...</value>
+  </data>
+  <data name="Unauthorized" xml:space="preserve">
+    <value>Unauthorized</value>
+  </data>
+  <data name="UnauthorizedError" xml:space="preserve">
+    <value>Unauthorized</value>
+  </data>
+  <data name="Unpublish" xml:space="preserve">
+    <value>ˌənˈpəbliSH
+Yayından kaldır</value>
+  </data>
+  <data name="UnpublishTooltip" xml:space="preserve">
+    <value>Buna tıklarsanız tüm öğrenciler sınava girmeyi bırakmak zorunda kalacak. "Yayından kaldır"ı tıkladıktan sonra, siz sınav tekrar yayınlayana kadar tüm öğrenciler sınava devam edemeyeceklerdir.</value>
+  </data>
+  <data name="UpcomingExams" xml:space="preserve">
+    <value>Yaklaşan Sınavlar</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Yükle</value>
+  </data>
+  <data name="UploadedBy" xml:space="preserve">
+    <value>Yükleyen</value>
+  </data>
+  <data name="UploadedOn" xml:space="preserve">
+    <value>Yükleme Tarihi</value>
+  </data>
+  <data name="UploadExcel" xml:space="preserve">
+    <value>Excel Yükle</value>
+  </data>
+  <data name="UploadFiles" xml:space="preserve">
+    <value>Dosya Yükle</value>
+  </data>
+  <data name="UploadUserAttachment" xml:space="preserve">
+    <value>Kullanıcı Eki Yükle</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="UserAttachment" xml:space="preserve">
+    <value>Kullanıcı Eki</value>
+  </data>
+  <data name="UserAttachmentType" xml:space="preserve">
+    <value>Kullanıcı Eki Türü</value>
+  </data>
+  <data name="UserAttachmentTypeNameAlreadyExist" xml:space="preserve">
+    <value>Kullanıcı eki türü adı sistemde zaten mevcut.</value>
+  </data>
+  <data name="UserbyStatusChart" xml:space="preserve">
+    <value>Durum Grafiğine Göre Kullanıcı</value>
+  </data>
+  <data name="UserInformation" xml:space="preserve">
+    <value>Kullanıcı Bilgisi</value>
+  </data>
+  <data name="UserManagement" xml:space="preserve">
+    <value>Kullanıcı yönetimi</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="UsernameTaken" xml:space="preserve">
+    <value>Kullanıcı adı önceden alınmış. Lütfen başka bir kullanıcı adıyla tekrar deneyin.</value>
+  </data>
+  <data name="UserNotExist" xml:space="preserve">
+    <value>Kullanıcı sistemde mevcut değil.</value>
+  </data>
+  <data name="UsersInTheRoleOf" xml:space="preserve">
+    <value>Rolündeki Kullanıcılar</value>
+  </data>
+  <data name="UserStatus" xml:space="preserve">
+    <value>Kullanıcı durumu</value>
+  </data>
+  <data name="UserStatusNameAlreadyExist" xml:space="preserve">
+    <value>Kullanıcı durumu adı sistemde zaten mevcut.</value>
+  </data>
+  <data name="videos" xml:space="preserve">
+    <value>Videolar</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="ViewList" xml:space="preserve">
+    <value>Liste Görünüm</value>
+  </data>
+  <data name="ViewRole" xml:space="preserve">
+    <value>rolü Görüntüle</value>
+  </data>
+  <data name="Viewroles" xml:space="preserve">
+    <value>Rolleri görüntüle</value>
+  </data>
+  <data name="Viewthisrole" xml:space="preserve">
+    <value>Bu rolü görüntüle</value>
+  </data>
+  <data name="ViewUser" xml:space="preserve">
+    <value>Kullanıcıyı Görüntüle</value>
+  </data>
+  <data name="Viewusers" xml:space="preserve">
+    <value>Kullanıcıları görüntüle</value>
+  </data>
+  <data name="Viewuserstatus" xml:space="preserve">
+    <value>Kullanıcı durumunu görüntüle</value>
+  </data>
+  <data name="YesDeleteIt" xml:space="preserve">
+    <value>Evet Silin!</value>
+  </data>
+  <data name="YouDontHavePermissionToAccess" xml:space="preserve">
+    <value>Bu sayfaya erişim izniniz yok.</value>
+  </data>
+  <data name="YourExamResult" xml:space="preserve">
+    <value>Sınav Sonucunuz</value>
+  </data>
+  <data name="YourPassword" xml:space="preserve">
+    <value>Şifreniz</value>
+  </data>
+  <data name="YourPasswordResetSuccessfully" xml:space="preserve">
+    <value>Şifreniz başarıyla sıfırlandı!</value>
+  </data>
+  <data name="YourScore" xml:space="preserve">
+    <value>Puanın</value>
+  </data>
+  <data name="YourTopBestPerformance" xml:space="preserve">
+    <value>En İyi 5 Performansınız</value>
+  </data>
+  <data name="YourTopExamsThatNeedImprovement" xml:space="preserve">
+    <value>Geliştirilmesi Gereken İlk 5 Sınavınız</value>
+  </data>
+</root>

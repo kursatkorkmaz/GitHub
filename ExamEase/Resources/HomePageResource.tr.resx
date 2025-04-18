@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnAccount" xml:space="preserve">
+    <value>Hesap</value>
+  </data>
+  <data name="ASPNETMVCWebApplication" xml:space="preserve">
+    <value>Herkes İçin Kur'an</value>
+  </data>
+  <data name="Benefits" xml:space="preserve">
+    <value>Denemeler</value>
+  </data>
+  <data name="BootstrapHTMLWebsiteTemplates" xml:space="preserve">
+    <value>Bootstrap HTML Website Templates</value>
+  </data>
+  <data name="Confirmpassword" xml:space="preserve">
+    <value>Şifre Tekrar</value>
+  </data>
+  <data name="DetailedDocumentation" xml:space="preserve">
+    <value>Detaylı Dokümantasyon</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Email Adresi</value>
+  </data>
+  <data name="EnvatoPortfolio" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>S.S.S</value>
+  </data>
+  <data name="FAQFourAnswer" xml:space="preserve">
+    <value>Yes, it's in our plan, but for now, we couldn't guarantee the release time.</value>
+  </data>
+  <data name="FAQFourQuestion" xml:space="preserve">
+    <value>Can you create a .NET Core MVC version?</value>
+  </data>
+  <data name="FAQOneAnswer" xml:space="preserve">
+    <value>We only provide support for fixing existing bugs in the templates and answering questions regarding the existing features. Step-by-step guidance on how to do your custom modifications, how to solve bugs after your own modifications and direct installation are not part of our support. Thank you so much for your understanding. We will spend our time to create more amazing templates for you.</value>
+  </data>
+  <data name="FAQOneQuestion" xml:space="preserve">
+    <value>How is the support policy?</value>
+  </data>
+  <data name="FAQThreeAnswer" xml:space="preserve">
+    <value>Yes, you can. Go to "/Views/Shared/_FooterBeforeLogin.cshtml" and find the footer section to edit or remove the copyright text.</value>
+  </data>
+  <data name="FAQThreeQuestion" xml:space="preserve">
+    <value>Can I edit or remove the Copyright text at the footer?</value>
+  </data>
+  <data name="FAQTwoAnswerPartOne" xml:space="preserve">
+    <value>Answer is: Immediately after purchase.</value>
+  </data>
+  <data name="FAQTwoAnswerPartTwo" xml:space="preserve">
+    <value>for more information, there is “Downloading your items” section at the end of this article.</value>
+  </data>
+  <data name="FAQTwoQuestion" xml:space="preserve">
+    <value>When can I download the file after purchase the item?</value>
+  </data>
+  <data name="Feature1" xml:space="preserve">
+    <value>Kullnıcı Yönetimi</value>
+  </data>
+  <data name="Feature10" xml:space="preserve">
+    <value>Otomatik yeniden derecelendirme</value>
+  </data>
+  <data name="Feature10Description" xml:space="preserve">
+    <value>Öğretmenin yanlış cevabı doğru olarak seçmesi ve bunu öğrenciler sınava girdikten sonra fark etmesi durumunda, cevabı değiştirmek isterse sonuçları otomatik olarak yeniden notlandırılacaktır.</value>
+  </data>
+  <data name="Feature11" xml:space="preserve">
+    <value>Grafiği Analiz Et</value>
+  </data>
+  <data name="Feature11Description" xml:space="preserve">
+    <value>Sonuçları analiz etmek için grafikler, çoğu öğrencinin yanlış cevapladığı sorular ve daha fazlası.</value>
+  </data>
+  <data name="Feature12" xml:space="preserve">
+    <value>Kurallar</value>
+  </data>
+  <data name="Feature12Description" xml:space="preserve">
+    <value>Soruları atlayamıyoruz. Sınava girerken soru metni kopyalanamaz</value>
+  </data>
+  <data name="Feature1Description" xml:space="preserve">
+    <value>Sistem yöneticisi kullanıcıları oluşturabilir, güncelleyebilir ve silebilir. Öğrenciler ve öğretmenler kendileri de hesap açabilirler</value>
+  </data>
+  <data name="Feature2" xml:space="preserve">
+    <value>!.158 Kelimenin 29.930 Kullanımı </value>
+  </data>
+  <data name="Feature2Description" xml:space="preserve">
+    <value>Soru bankanızı kaydedin ve farklı puan dağılımlarıyla farklı sınavlarda tekrar kullanın.</value>
+  </data>
+  <data name="Feature3" xml:space="preserve">
+    <value>Kur'an'ı Okuduğumuzda Anlayabildiğimiz %59,62 </value>
+  </data>
+  <data name="Feature3Description" xml:space="preserve">
+    <value>Şimdi bir muayeneyi kaydedebilir ve daha sonra başlayacak şekilde planlayabilirsiniz. Daha sonra öğrencilere duyurulmaya hazır olduğunda sınavı yayınlayın.
+s.</value>
+  </data>
+  <data name="Feature4" xml:space="preserve">
+    <value>Kura'an-ı Kerimde geçen kelimelerin %59,62'sini zaten biliyoruz.</value>
+  </data>
+  <data name="Feature4Description" xml:space="preserve">
+    <value>Öğrencilerin sonuçları Excel veya PDF'ye aktarılabilir. Sınavdaki en iyi öğrencileri görmek için sonuç listesini öğrenci puanına göre de sıralayabilirsiniz.</value>
+  </data>
+  <data name="Feature5" xml:space="preserve">
+    <value>Çınar Metoduyla aynı kökten türeyen kelimeler kalıcı olarak öğretilmekte</value>
+  </data>
+  <data name="Feature5Description" xml:space="preserve">
+    <value>Soruları toplu olarak Excel'den içe aktararak oluşturabilirsiniz.</value>
+  </data>
+  <data name="Feature6" xml:space="preserve">
+    <value>Lokma metoduyla ayetler kısa ve anlamlı cümleler içinde öğretilmekte.</value>
+  </data>
+  <data name="Feature6Description" xml:space="preserve">
+    <value>Kullanıcı hesaplarını toplu olarak Excel'den içe aktararak oluşturabilirsiniz.</value>
+  </data>
+  <data name="Feature7" xml:space="preserve">
+    <value>5.500 örnek ayet üzerinden Kuran’daki tüm dil yapılarını kapsayacak şekilde gerçekleştirilecek</value>
+  </data>
+  <data name="Feature7Description" xml:space="preserve">
+    <value>Cevapları Gönder</value>
+  </data>
+  <data name="Feature8" xml:space="preserve">
+    <value>Ara değerlendirme ve genel sınavla birlikte okuyucu 3.500 soruyu cevaplamış olacak ve yönlendirmeler ile pekiştirme yapacaktır.</value>
+  </data>
+  <data name="Feature8Description" xml:space="preserve">
+    <value>Soruların yanıtlarını yayınlamayı veya yayınlamayı iptal etmeyi seçebilirsiniz. Cevaplar açıklanmadan önce öğrenciler sonuçları alacak ancak doğru cevapları göremeyecektir. Cevabı ancak tüm öğrenciler sınava girdikten sonra yayınlamanızı öneririz.</value>
+  </data>
+  <data name="Feature9" xml:space="preserve">
+    <value>Sonucu dışa aktar</value>
+  </data>
+  <data name="Feature9Description" xml:space="preserve">
+    <value>Öğrencilerin sonucu excel veya pdf'ye aktarılabilir.</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Features1" xml:space="preserve">
+    <value>Kur'an'dan dilimize 1.158 Kelime Geçmiştir</value>
+    <comment> </comment>
+  </data>
+  <data name="FeaturesDescription" xml:space="preserve">
+    <value>Herkes Kur'anı Kerimi Okuyup Anlayabilir. Çünkü....</value>
+  </data>
+  <data name="Fillyourdetailstoregister" xml:space="preserve">
+    <value>Kayıt olmak için bilgilerinizi doldurun.</value>
+  </data>
+  <data name="Fillyourusernameandpasswordtosignin" xml:space="preserve">
+    <value>Oturum açmak için kullanıcı adınızı ve şifrenizi girin.</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>Bizi Takip Edin</value>
+  </data>
+  <data name="FollowUsDescription" xml:space="preserve">
+    <value>Projelerle ilgili güncellemeleri veya haberleri almak için sosyal medyamızı takip edin.</value>
+  </data>
+  <data name="Forgotyourpassword" xml:space="preserve">
+    <value>Parolanızı mı unuttunuz?</value>
+  </data>
+  <data name="FrequentlyAskedQuestions" xml:space="preserve">
+    <value>Sıkça Sorulan Sorular</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="HomeDescription" xml:space="preserve">
+    <value>Kur'an’ı Kerim okumayı bilen her eğitim düzeyindeki herkesin, verilecek Kuran Arapçası eğitimi akabinde, okuduğunu anlaması, yorumlayabilecek kadar değerlendirebilmesi ve bir meale ihtiyaç duymadan kitabın emirlerini, yasaklarını ve pekiştiren örnek olaylarını içselleştirebilecek şekilde hakimiyet kazanabilmesidir.</value>
+  </data>
+  <data name="HomeTitleOne" xml:space="preserve">
+    <value>Kur'anı Kerimi anlayarak okumak artık okadar zor değil</value>
+  </data>
+  <data name="HomeTitleTwo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImportAndExport" xml:space="preserve">
+    <value>İçe &amp; Dışa Aktar</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="NetStarterFAQArticles" xml:space="preserve">
+    <value>Sıkça Sorulan Sorular</value>
+  </data>
+  <data name="OurProducts" xml:space="preserve">
+    <value>Ürünlerimiz</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="RegisterAndLogin" xml:space="preserve">
+    <value>Kayıt Ol</value>
+  </data>
+  <data name="Rememberme" xml:space="preserve">
+    <value>Beni Hatırla?</value>
+  </data>
+  <data name="RolePermission" xml:space="preserve">
+    <value>Rol İzni</value>
+  </data>
+  <data name="SendingEmail" xml:space="preserve">
+    <value>Mail Gönder</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>Kayıt Ol</value>
+  </data>
+  <data name="Specifications" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="TheFollowingArticle" xml:space="preserve">
+    <value>aşağıdaki makale</value>
+  </data>
+  <data name="ToNetStarter" xml:space="preserve">
+    <value>Herkes İçin Kur'an</value>
+  </data>
+  <data name="UploadFile" xml:space="preserve">
+    <value>Dosya Yükle</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>kullanışlı bağlantılar</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>Daha Fazla</value>
+  </data>
+  <data name="WebAppTitle" xml:space="preserve">
+    <value>Herkes İçin Kur'an</value>
+  </data>
+  <data name="WhatyougetDescription" xml:space="preserve">
+    <value>Satın Aldıktan Sonra Aşağıdakileri İçeren Bir Zip Dosyası Alacaksınız</value>
+  </data>
+  <data name="WhyUs1Description" xml:space="preserve">
+    <value>İlk etapta kullanıcların bilgi seviyesini ölçmek için genel bilgilere dayalı bir test yapılır. Bu test sonucunda hangi kurdan başlması gerektiğine dair bilgi verilir</value>
+  </data>
+  <data name="WhyUs1Title" xml:space="preserve">
+    <value>Ölçme Değerlendirme</value>
+  </data>
+  <data name="WhyUs2Description" xml:space="preserve">
+    <value>Toplam 7 kur 385 dersten oluşan video dersler izlendikten sonra konuyla ilgili ayet videoları ve tekrarları yapılır. Deneme testleri çözümlenir</value>
+  </data>
+  <data name="WhyUs2Title" xml:space="preserve">
+    <value>Video Dersler</value>
+  </data>
+  <data name="WhyUs3Description" xml:space="preserve">
+    <value>Video derslerini tamamlayan kullanıcılar diğer kura geçebilmek için bu testlerde %85 başarı sağladıktan sonra diğer kur derslerine geçebilir</value>
+  </data>
+  <data name="WhyUs3Title" xml:space="preserve">
+    <value>Kur Geçme Sınavı</value>
+  </data>
+  <data name="WhyUsDescription" xml:space="preserve">
+    <value>Herkes İçin Kur'an İşleyiş Şekli</value>
+  </data>
+  <data name="WhyUsTitle" xml:space="preserve">
+    <value />
+  </data>
+</root>

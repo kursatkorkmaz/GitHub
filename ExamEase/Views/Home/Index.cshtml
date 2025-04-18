@@ -1,0 +1,133 @@
+﻿@using ExamEase.Resources
+@{
+    ViewBag.Title = HomePageResource.WebAppTitle;
+}
+ @using Microsoft.Web.Helpers
+
+<section id="hero" class="py-12" data-img="/Assets/back.png">
+    <div class="container py-4">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6">
+                <div class="py-2 pe-lg-5">
+                    <h1 class="fs-48 fw600">@HomePageResource.HomeTitleOne</h1>
+                    <div class="fs-16 pt-2">@HomePageResource.HomeDescription</div>
+                    <div class="pt-3">
+                        <span class="nav-link p-0 m-0">
+                            <a class="border-0 bg-secondarycolor hover-bg-primarycolor color-white hover-color-white btn-padding rounded hover-boxshadow fs-16 d-inline-block hover-moveup" href="@Url.Action("register","account")">@HomePageResource.SignUp</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+              <div class="col-lg-1">
+            @*    <img src="~/Assets/hero.png" class="img-fluid text-start" style="width:90%;" alt="">*@
+
+  
+                           
+                         
+						
+         </div>
+            <div class="col-lg-5">
+            @*    <img src="~/Assets/hero.png" class="img-fluid text-start" style="width:90%;" alt="">*@
+
+  
+                           
+                             @* <video id="videoplayer" src="@Url.Content("~/movies/1kurgiris.mp4")" controls width="450" height="450"  autoplay loop></video> *@ 
+                          
+						
+         </div>
+        
+        </div>
+    </div>
+</section>
+<section id="whyus" class="pt-0 pb-12">
+    <div class="container">
+        <div class="row justify-content-center align-items-center text-center text-center">
+            <div class="col-lg-6">
+                <div class="fs-20 fw500 color-primarycolor">@HomePageResource.WhyUsTitle</div>
+                <div class="fs-32 fw600 text-capitalize lh-base">@HomePageResource.WhyUsDescription</div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center text-center mt-3">
+            <div class="col-lg-4">
+                <div class="p-5 bg-white shadow">
+                    <div class="py-5">
+                        <img src="~/Assets/whyus1.png" class="img-fluid" alt="">
+                        <div class="fs-22 fw600 text-capitalize lh-base pt-2">@HomePageResource.WhyUs1Title</div>
+                        <p>@HomePageResource.WhyUs1Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+                <div class="p-5 bg-white shadow">
+                    <div class="py-5">
+                        <img src="~/Assets/whyus2.png" class="img-fluid" alt="">
+                        <div class="fs-22 fw600 text-capitalize lh-base pt-2">@HomePageResource.WhyUs2Title</div>
+                        <p>@HomePageResource.WhyUs2Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+                <div class="p-5 bg-white shadow">
+                    <div class="py-5">
+                        <img src="~/Assets/whyus3.png" class="img-fluid" alt="">
+                        <div class="fs-22 fw600 text-capitalize lh-base pt-2">@HomePageResource.WhyUs3Title</div>
+                        <p>@HomePageResource.WhyUs3Description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="features" class="pt-6 pb-12">
+    <div class="container">
+        <div class="row justify-content-center align-items-center text-center text-center mb-3">
+            <div class="col-lg-6">
+                <div class="fs-20 fw500 color-primarycolor">@HomePageResource.Features</div>
+                <div class="fs-32 fw600 text-capitalize lh-base">@HomePageResource.FeaturesDescription</div>
+            </div>
+        </div>
+        <div class="row justify-content-evenly align-items-stretch text-center g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="py-4 px-5 bg-white hover-bg-primarycolor hover-color-white shadow" data-bs-toggle="tooltip" data-bs-placement="top" title="@HomePageResource.Feature1Description">
+                    <div class="fs-17">@HomePageResource.Features1</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="py-4 px-5 bg-white hover-bg-primarycolor hover-color-white shadow" data-bs-toggle="tooltip" data-bs-placement="top" title="@HomePageResource.Feature2Description">
+                    <div class="fs-17">@HomePageResource.Feature2</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="py-4 px-5 bg-white hover-bg-primarycolor hover-color-white shadow" data-bs-toggle="tooltip" data-bs-placement="top" title="@HomePageResource.Feature3Description">
+                    <div class="fs-17">@HomePageResource.Feature3</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="py-4 px-5 bg-white hover-bg-primarycolor hover-color-white shadow" data-bs-toggle="tooltip" data-bs-placement="top" title="@HomePageResource.Feature4Description">
+                    <div class="fs-17">@HomePageResource.Feature4</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="py-4 px-5 bg-white hover-bg-primarycolor hover-color-white shadow" data-bs-toggle="tooltip" data-bs-placement="top" title="@HomePageResource.Feature5Description">
+                    <div class="fs-17">@HomePageResource.Feature5</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="py-4 px-5 bg-white hover-bg-primarycolor hover-color-white shadow" data-bs-toggle="tooltip" data-bs-placement="top" title="@HomePageResource.Feature6Description">
+                    <div class="fs-17">@HomePageResource.Feature6</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="py-4 px-5 bg-white hover-bg-primarycolor hover-color-white shadow" data-bs-toggle="tooltip" data-bs-placement="top" title="@HomePageResource.Feature7Description">
+                    <div class="fs-17">@HomePageResource.Feature7</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="py-4 px-5 bg-white hover-bg-primarycolor hover-color-white shadow" data-bs-toggle="tooltip" data-bs-placement="top" title="@HomePageResource.Feature8Description">
+                    <div class="fs-17">@HomePageResource.Feature8</div>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+</section>

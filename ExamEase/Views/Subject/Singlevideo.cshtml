@@ -1,0 +1,48 @@
+﻿@using ExamEase.Models;
+@using ExamEase.Resources
+@{
+    ViewBag.Module = Resource.Subject;
+    ViewBag.Title = ViewBag.Module + " " + Resource.Management;
+    Layout = "~/Views/Shared/_LayoutAfterLogin.cshtml";
+    ViewBag.TableIdPrefix = "videos";
+    ViewBag.PartialViewWrapper = "videos-partialview";
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="pagetitle mb-sm-0 fw600">1.Kur Şahıs Zamirleri</h4>
+        </div>
+    </div>
+</div>
+
+
+<div class="gen-tv-show-top">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="gentech-tv-show-img-holder">
+                <iframe width="100%" height="550px" src="https://atahan.net/movies/2derssahiszamirleri.mp4"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-lg-6 align-self-center">
+            <div class="gen-single-tv-show-info">
+          
+                <div class="gen-single-meta-holder">
+                    <ul style="color:black">
+                        <li>1 Kur </li>
+                        <li>Şahıs Zamirleri Tekil</li>
+                        <li>00:04:15</li>
+                  
+                    </ul>
+                </div>
+                <p>
+                  Burada şahıs zamirlerinin kullanım şekilleri ve buna benzer örnekleri bulacaksınız konu anlatımından sonra ayetler gelecek ve bu ayetleri tekrarlarını yapmanız istenecektir.
+                </p>
+              
+            </div>
+        </div>
+    </div>
+</div>
